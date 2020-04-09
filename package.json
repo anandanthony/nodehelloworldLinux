@@ -12,15 +12,7 @@
     "express": "^4.13.4"
   },
   "scripts": {
-    "build": "flow-remove-types src/ --out-dir build/ && cp -R src/public/. build/public",
-    "flow": "flow",
-    "prestart": "npm run build",
-    "start": "node build/index.js",
-    "debug": "npm run build && nodemon -r dotenv/config -r flow-remove-types/register --inspect --watch src src/index.js",
-    "lint": "eslint .",
-    "test": "jest",
-    "precommit": "lint-staged && npm run flow",
-    "postinstall": "git update-index --skip-worktree local.js & exit 0"
+    "start": "node index.js"
   },
   "engines": {
     "node": "10.14.0"
