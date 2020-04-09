@@ -45,7 +45,7 @@
     "postinstall": "git update-index --skip-worktree local.js & exit 0"
   },
   "engines": {
-    "node": "8.11"
+    "node": "10.14.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",
