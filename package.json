@@ -9,7 +9,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "kuduscript": "^1.0.17"
   },
   "scripts": {
     "start": "node index.js"
